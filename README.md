@@ -3,6 +3,7 @@
 ###### IP and Port
     tarkov.jadengames.com:420
 
+Plugins<br />
 <a href="https://raw.githubusercontent.com/Jaden-Allen/tarkov-fika-server/main/src/Plugins/AmandsSense.1.1.0.zip">Download AmandsSense</a><br />
 <a href="https://raw.githubusercontent.com/Jaden-Allen/tarkov-fika-server/main/src/Plugins/DisableScavMode.zip">Download DisableScavMode</a><br />
 <a href="https://raw.githubusercontent.com/Jaden-Allen/tarkov-fika-server/main/src/Plugins/DrakiaXYZ-BigBrain-0.4.0_3.8.0.7z">Download DrakiaXYZ-BigBrain</a><br />
