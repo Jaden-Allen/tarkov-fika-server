@@ -1,0 +1,682 @@
+[Info   :   BepInEx] Loading [EFTUtils 1.2.0]
+[Info   :   BepInEx] Loading [GamePanelHUDCore 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDCompass 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDGrenade 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDHealth 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDHit 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDKill 3.0.0]
+[Info   :   BepInEx] Loading [GamePanelHUDWeapon 3.0.0]
+[Info   :   BepInEx] Loading [AKI.Custom 3.8.0]
+[Info   :AKI.Custom] Loading: Aki.Custom
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/bundles
+[Info   :RequestHandler] Request was successful
+[Info   :BundleManager] CACHE: Loading locally m4_gas_block.bundle
+[Info   :BundleManager] CACHE: Loading locally vepr_136_gt.bundle
+[Info   :BundleManager] CACHE: Loading locally akm_gt.bundle
+[Info   :BundleManager] CACHE: Loading locally 6kh4_bayonet.bundle
+[Info   :BundleManager] CACHE: Loading locally mosin_bayonet.bundle
+[Info   :BundleManager] CACHE: Loading locally m9_bayonet.bundle
+[Info   :BundleManager] CACHE: Loading locally ak74_gt.bundle
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Debug  :ModulePatch] BossSpawnChancePatch Type: LocalGame
+[Debug  :ModulePatch] BossSpawnChancePatch Method: smethod_8
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotCallForHelpCallBotPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Debug  :ModulePatch] LocationLootCacheBustingPatch Type: BaseLocalGame`1
+[Debug  :ModulePatch] LocationLootCacheBustingPatch Method: method_6
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :ModulePatch] Enabled patch AddSptBotSettingsPatch
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Debug  :ModulePatch] SetLocationIdOnRaidStartPatch Type: BaseLocalGame`1
+[Debug  :ModulePatch] SetLocationIdOnRaidStartPatch Method: method_3
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :AKI.Custom] Completed: Aki.Custom
+[Info   :   BepInEx] Loading [AKI.Singleplayer 3.8.0]
+[Info   :AKI.Singleplayer] Loading: Aki.SinglePlayer
+[Debug  :ModulePatch] OfflineSaveProfilePatch Type: TarkovApplication
+[Debug  :ModulePatch] OfflineSaveProfilePatch Method: method_46
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Debug  :ModulePatch] ScavPrefabLoadPatch Type: Struct299
+[Debug  :ModulePatch] ScavPrefabLoadPatch Method: MoveNext
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Debug  :ModulePatch] ScavProfileLoadPatch Type: Struct306
+[Debug  :ModulePatch] ScavProfileLoadPatch Method: MoveNext
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Debug  :ModulePatch] MaxBotPatch Type: BotsController
+[Debug  :ModulePatch] MaxBotPatch Method: SetSettings
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Debug  :ModulePatch] SpawnPmcPatch Type: GClass592
+[Debug  :ModulePatch] SpawnPmcPatch Method: method_1
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Debug  :ModulePatch] InRaidQuestAvailablePatch Type: GClass1249
+[Debug  :ModulePatch] InRaidQuestAvailablePatch Method: SetStatus
+[Debug  :ModulePatch] InRaidQuestAvailablePatch QuestStatus: QuestStatus
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Debug  :ModulePatch] PostRaidHealScreenPatch Method: smethod_0
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Debug  :ModulePatch] EmptyInfilFixPatch Type: BaseLocalGame`1
+[Debug  :ModulePatch] EmptyInfilFixPatch Method: vmethod_5
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Debug  :ModulePatch] ScavLateStartPatch Type: TarkovApplication
+[Debug  :ModulePatch] ScavLateStartPatch Method: method_43
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch MidRaidAchievementChangePatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Debug  :ModulePatch] ScavSellAllRequestPatch Type: Class263
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :AKI.Singleplayer] Completed: Aki.SinglePlayer
+[Info   :   BepInEx] Loading [MPT.Core 1.0.0]
+[Info   :ModulePatch] Enabled patch MPTVersionLabelPatch
+[Info   :ModulePatch] Enabled patch DisableReadyButtonPatch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButtonPatch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFadePatch
+[Info   :ModulePatch] Enabled patch ItemContextPatch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenarioPatch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenarioPatch
+[Info   :ModulePatch] Enabled patch WeatherNodePatch
+[Info   :ModulePatch] Enabled patch EnvironmentUIRootPatch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreenAwakePatch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreenShowPatch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch TOSPatch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Debug  :ModulePatch] EmptyInfilFixPatch Type: BaseLocalGame`1
+[Debug  :ModulePatch] EmptyInfilFixPatch Method: vmethod_5
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Debug  :ModulePatch] OfflineSpawnPointPatch Type: SpawnSystemClass
+[Debug  :ModulePatch] OfflineSpawnPointPatch Method: GInterface348.SelectSpawnPoint
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Debug  :ModulePatch] MaxBotPatch Type: BotsController
+[Debug  :ModulePatch] MaxBotPatch Method: SetSettings
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatchOverride
+[Info   :ModulePatch] Enabled patch ScavProfileLoadOverride
+[Debug  :ModulePatch] MaxBotPatchOverride Type: BotsController
+[Debug  :ModulePatch] MaxBotPatchOverride Method: SetSettings
+[Info   :ModulePatch] Enabled patch MaxBotPatchOverride
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatchOverride
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatchOverride
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatchOverride
+[Info   :ModulePatch] Enabled patch MPTAirdropFlarePatch
+[Info   :  MPT.Core] MPT is loaded!
+[Info   :  MPT.Core] Adding Graphics to loaded mods.
+[Info   :  MPT.Core] Adding Sense to loaded mods.
+[Info   :  MPT.Core] Adding Configuration Manager to loaded mods.
+[Info   :  MPT.Core] Adding EFTReflection to loaded mods.
+[Info   :  MPT.Core] Adding EFTApi to loaded mods.
+[Info   :  MPT.Core] Adding EFTConfiguration to loaded mods.
+[Info   :  MPT.Core] Adding EFTUtils to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDCore to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDCompass to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDGrenade to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDHealth to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDHit to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDKill to loaded mods.
+[Info   :  MPT.Core] Adding GamePanelHUDWeapon to loaded mods.
+[Info   :  MPT.Core] Adding AKI.Custom to loaded mods.
+[Info   :  MPT.Core] Adding AKI.Singleplayer to loaded mods.
+[Info   :  MPT.Core] Adding MPT.Core to loaded mods.
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/airdrop/config
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/mpt/client/config
+[Info   :RequestHandler] Request was successful
+[Info   :   BepInEx] Loading [BundleLoader 1.0.0]
+[Info   :BundleLoader] Loaded 4 bundles...
+[Info   :   BepInEx] Loading [SamSWAT.FireSupport.ArysReloaded 2.2.3]
+[Info   :ModulePatch] Enabled patch GesturesMenuPatch
+[Info   :ModulePatch] Enabled patch AddItemToDatabasePatch
+[Info   :ModulePatch] Enabled patch AddLocaleToDatabasePatch
+[Info   :ModulePatch] Enabled patch ItemFactoryUtil
+[Info   :   BepInEx] Loading [SamSWAT.FOV 1.0.0]
+[Info   :ModulePatch] Enabled patch FovPatch
+[Info   :ModulePatch] Enabled patch PlayerSpringPatch
+[Info   :ModulePatch] Enabled patch SettingsApplierPatch
+[Info   :   BepInEx] Loading [SERVPH's Dismemberment 1.0.0]
+[Info   :ModulePatch] Enabled patch DismembermentPatch
+[Info   :ModulePatch] Enabled patch GameStartedPatch
+[Info   :   BepInEx] Loading [SSH EFT Volumetric Blood FX 1.0.0]
+[Info   :   BepInEx] Loading [AKI.Core 3.8.0]
+[Info   :  AKI.Core] Loading: Aki.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  AKI.Core] Completed: Aki.Core
+[Info   :   BepInEx] Loading [AKI.Debugging 3.8.0]
+[Info   :AKI.Debugging] Loading: Aki.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :AKI.Debugging] Completed: Aki.Debugging
+[Info   :   BepInEx] Loading [DisableScavMode 1.0.0]
+[Info   :ModulePatch] Enabled patch DisableScavModePatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 0.4.0.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.4.3]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :ModulePatch] Enabled patch GroupPointCachePatch
+[Info   :ModulePatch] Enabled patch BotVoxelesPersonalActivatePatch
+[Info   :ModulePatch] Enabled patch GroupPointGetByIdPatch
+[Info   :   BepInEx] Loading [SAIN 2.2.0]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Scav] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Scav Group] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Crazy Scav Event] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Usec] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Bear] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Scav Sniper] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Tagged and Cursed Scav] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Knight] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [BigPipe] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [BirdEye] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Rogue] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Raider] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Bloodhound] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Cultist Priest] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Cultist] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Killa] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Rashala] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Rashala Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Shturman] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Shturman Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Tagilla] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Tagilla Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Sanitar] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Sanitar Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Gluhar] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Gluhar Guard Snipe] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Gluhar Guard Scout] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Gluhar Guard Security] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Gluhar Guard Assault] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Zryachiy] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Zryachiy Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kaban] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kaban Guard] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kaban Sniper] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kolontay] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kolontay Assault] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [Kolontay Security] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [SAINSettingsGroupClass] File Name: [BTR] To Path: [/Presets/5. Death Wish Copy()/BotSettings]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [GigaChad] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [Chad] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [Timmy] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [Coward] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [Rat] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Debug  :      SAIN] [] : [] : [Successfully Imported [PersonalitySettingsClass] File Name: [Normal] To Path: [/Presets/5. Death Wish Copy()/Personalities]]
+[Info   :ModulePatch] Enabled patch KickPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotRecoilPatch
+[Info   :ModulePatch] Enabled patch GetHitPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch NoTeleportPatch
+[Info   :ModulePatch] Enabled patch SkipLookForCoverPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch BetterAudioPatch
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch TalkDisablePatch1
+[Info   :ModulePatch] Enabled patch TalkDisablePatch2
+[Info   :ModulePatch] Enabled patch TalkDisablePatch3
+[Info   :ModulePatch] Enabled patch TalkDisablePatch4
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch VisionDistancePosePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch RecoilPatch
+[Info   :ModulePatch] Enabled patch LoseRecoilPatch
+[Info   :ModulePatch] Enabled patch EndRecoilPatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddComponentPatch
+[Info   :   BepInEx] Loading [RealismMod 1.1.1]
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:http://tarkov.jadengames.com:420/RealismMod/GetInfo
+[Info   :RequestHandler] Request was successful
+[Info   :ModulePatch] Enabled patch ChamberCheckUIPatch
+[Info   :ModulePatch] Enabled patch KeyInputPatch
+[Info   :ModulePatch] Enabled patch SyncWithCharacterSkillsPatch
+[Info   :ModulePatch] Enabled patch OnItemAddedOrRemovedPatch
+[Info   :ModulePatch] Enabled patch PlayerLateUpdatePatch
+[Info   :ModulePatch] Enabled patch PlayerInitPatch
+[Info   :ModulePatch] Enabled patch UpdateWeaponVariablesPatch
+[Info   :ModulePatch] Enabled patch SetAimingSlowdownPatch
+[Info   :ModulePatch] Enabled patch PwaWeaponParamsPatch
+[Info   :ModulePatch] Enabled patch UpdateSwayFactorsPatch
+[Info   :ModulePatch] Enabled patch GetOverweightPatch
+[Info   :ModulePatch] Enabled patch SetOverweightPatch
+[Info   :ModulePatch] Enabled patch BreathProcessPatch
+[Info   :ModulePatch] Enabled patch CamRecoilPatch
+[Info   :ModulePatch] Enabled patch COIDeltaPatch
+[Info   :ModulePatch] Enabled patch TotalShotgunDispersionPatch
+[Info   :ModulePatch] Enabled patch GetDurabilityLossOnShotPatch
+[Info   :ModulePatch] Enabled patch AutoFireRatePatch
+[Info   :ModulePatch] Enabled patch SingleFireRatePatch
+[Info   :ModulePatch] Enabled patch ErgoDeltaPatch
+[Info   :ModulePatch] Enabled patch ErgoWeightPatch
+[Info   :ModulePatch] Enabled patch PlayerErgoPatch
+[Info   :ModulePatch] Enabled patch ToggleAimPatch
+[Info   :ModulePatch] Enabled patch GetMalfunctionStatePatch
+[Info   :ModulePatch] Enabled patch CalibrationLookAt
+[Info   :ModulePatch] Enabled patch CalibrationLookAtScope
+[Info   :ModulePatch] Enabled patch ModConstructorPatch
+[Info   :ModulePatch] Enabled patch WeaponConstructorPatch
+[Info   :ModulePatch] Enabled patch HRecoilDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch HRecoilDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch VRecoilDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch VRecoilDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch ModVRecoilStatDisplayPatchFloat
+[Info   :ModulePatch] Enabled patch ModVRecoilStatDisplayPatchString
+[Info   :ModulePatch] Enabled patch ErgoDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch ErgoDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch COIDisplayDeltaPatch
+[Info   :ModulePatch] Enabled patch COIDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch FireRateDisplayStringValuePatch
+[Info   :ModulePatch] Enabled patch GetCachedReadonlyQualitiesPatch
+[Info   :ModulePatch] Enabled patch CenterOfImpactMOAPatch
+[Info   :ModulePatch] Enabled patch ModErgoStatDisplayPatch
+[Info   :ModulePatch] Enabled patch GetAttributeIconPatches
+[Info   :ModulePatch] Enabled patch AmmoDuraBurnDisplayPatch
+[Info   :ModulePatch] Enabled patch AmmoMalfChanceDisplayPatch
+[Info   :ModulePatch] Enabled patch MagazineMalfChanceDisplayPatch
+[Info   :ModulePatch] Enabled patch BarrelModClassPatch
+[Info   :ModulePatch] Enabled patch AmmoCaliberPatch
+[Info   :ModulePatch] Enabled patch GetTotalCenterOfImpactPatch
+[Info   :ModulePatch] Enabled patch GetCameraRotationRecoilPatch
+[Info   :ModulePatch] Enabled patch RecalcWeaponParametersPatch
+[Info   :ModulePatch] Enabled patch AddRecoilForcePatch
+[Info   :ModulePatch] Enabled patch RecoilAnglesPatch
+[Info   :ModulePatch] Enabled patch ShootPatch
+[Info   :ModulePatch] Enabled patch RotatePatch
+[Info   :ModulePatch] Enabled patch ReloadWithAmmoPatch
+[Info   :ModulePatch] Enabled patch ReloadBarrelsPatch
+[Info   :ModulePatch] Enabled patch ReloadCylinderMagazinePatch
+[Info   :ModulePatch] Enabled patch OnMagInsertedPatch
+[Info   :ModulePatch] Enabled patch SetSpeedParametersPatch
+[Info   :ModulePatch] Enabled patch CheckAmmoPatch
+[Info   :ModulePatch] Enabled patch CheckChamberPatch
+[Info   :ModulePatch] Enabled patch RechamberPatch
+[Info   :ModulePatch] Enabled patch SetAnimatorAndProceduralValuesPatch
+[Info   :ModulePatch] Enabled patch CreateShotPatch
+[Info   :ModulePatch] Enabled patch ApplyArmorDamagePatch
+[Info   :ModulePatch] Enabled patch DamageInfoPatch
+[Info   :ModulePatch] Enabled patch ApplyDamageInfoPatch
+[Info   :ModulePatch] Enabled patch SetPenetrationStatusPatch
+[Info   :ModulePatch] Enabled patch AfterPenPlatePatch
+[Info   :ModulePatch] Enabled patch IsShotDeflectedByHeavyArmorPatch
+[Info   :ModulePatch] Enabled patch RigConstructorPatch
+[Info   :ModulePatch] Enabled patch EquipmentPenaltyComponentPatch
+[Info   :ModulePatch] Enabled patch ArmorLevelUIPatch
+[Info   :ModulePatch] Enabled patch ArmorLevelDisplayPatch
+[Info   :ModulePatch] Enabled patch ApplyCorpseImpulsePatch
+[Info   :ModulePatch] Enabled patch ApplyComplexRotationPatch
+[Info   :ModulePatch] Enabled patch ApplySimpleRotationPatch
+[Info   :ModulePatch] Enabled patch InitTransformsPatch
+[Info   :ModulePatch] Enabled patch ZeroAdjustmentsPatch
+[Info   :ModulePatch] Enabled patch WeaponOverlappingPatch
+[Info   :ModulePatch] Enabled patch WeaponLengthPatch
+[Info   :ModulePatch] Enabled patch OnWeaponDrawPatch
+[Info   :ModulePatch] Enabled patch UpdateHipInaccuracyPatch
+[Info   :ModulePatch] Enabled patch SetFireModePatch
+[Info   :ModulePatch] Enabled patch WeaponOverlapViewPatch
+[Info   :ModulePatch] Enabled patch CollisionPatch
+[Info   :ModulePatch] Enabled patch OperateStationaryWeaponPatch
+[Info   :ModulePatch] Enabled patch SetTiltPatch
+[Info   :ModulePatch] Enabled patch BattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch MuzzleSmokePatch
+[Info   :ModulePatch] Enabled patch ChangePosePatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+[Info   : Unity Log] Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+[Info   : Unity Log] Skipped command line argument:C:\Users\jaime\OneDrive\Desktop\Games\Tarkov\Modded\EST\EscapeFromTarkov.exe
+[Info   : Unity Log] Skipped command line argument:-force-gfx-jobs
+[Info   : Unity Log] Skipped command line argument:native
+[Info   : Unity Log] key:token value:663488b800021e3110889b80
+[Info   : Unity Log] key:config value:{"BackendUrl":"http://tarkov.jadengames.com:420","Version":"live"}
+[Info   : Unity Log] PlayerLoopSystems:
+UnityEngine.PlayerLoop.Initialization
+	UnityEngine.PlayerLoop.Initialization+PlayerUpdateTime
+	UnityEngine.PlayerLoop.Initialization+DirectorSampleTime
+	UnityEngine.PlayerLoop.Initialization+AsyncUploadTimeSlicedUpdate
+	UnityEngine.PlayerLoop.Initialization+SynchronizeInputs
+	UnityEngine.PlayerLoop.Initialization+SynchronizeState
+	UnityEngine.PlayerLoop.Initialization+XREarlyUpdate
+UnityEngine.PlayerLoop.EarlyUpdate
+	CustomPlayerLoopSystem.FrameCounter
+	CustomPlayerLoopSystem.StartOfFrame
+	UnityEngine.PlayerLoop.EarlyUpdate+PollPlayerConnection
+	UnityEngine.PlayerLoop.EarlyUpdate+ProfilerStartFrame
+	UnityEngine.PlayerLoop.EarlyUpdate+GpuTimestamp
+	UnityEngine.PlayerLoop.EarlyUpdate+AnalyticsCoreStatsUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+UnityWebRequestUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+ExecuteMainThreadJobs
+	UnityEngine.PlayerLoop.EarlyUpdate+ProcessMouseInWindow
+	UnityEngine.PlayerLoop.EarlyUpdate+ClearIntermediateRenderers
+	UnityEngine.PlayerLoop.EarlyUpdate+ClearLines
+	UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+ResetFrameStatsAfterPresent
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateAsyncReadbackManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateStreamingManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateTextureStreamingManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdatePreloading
+	UnityEngine.PlayerLoop.EarlyUpdate+RendererNotifyInvisible
+	UnityEngine.PlayerLoop.EarlyUpdate+PlayerCleanupCachedData
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateMainGameViewRect
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateCanvasRectTransform
+	UnityEngine.PlayerLoop.EarlyUpdate+XRUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateInputManager
+	UnityEngine.PlayerLoop.EarlyUpdate+ProcessRemoteInput
+	UnityEngine.PlayerLoop.EarlyUpdate+ScriptRunDelayedStartupFrame
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateKinect
+	UnityEngine.PlayerLoop.EarlyUpdate+DeliverIosPlatformEvents
+	UnityEngine.PlayerLoop.EarlyUpdate+TangoUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+DispatchEventQueueEvents
+	UnityEngine.PlayerLoop.EarlyUpdate+PhysicsResetInterpolatedTransformPosition
+	UnityEngine.PlayerLoop.EarlyUpdate+SpriteAtlasManagerUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+PerformanceAnalyticsUpdate
+UnityEngine.PlayerLoop.FixedUpdate
+	CustomPlayerLoopSystem.StartOfFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+ClearLines
+	UnityEngine.PlayerLoop.FixedUpdate+NewInputFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedSampleTime
+	UnityEngine.PlayerLoop.FixedUpdate+AudioFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+ScriptRunBehaviourFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+LegacyFixedAnimationUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+XRFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+PhysicsFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+Physics2DFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+PhysicsClothFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedUpdatePostPhysics
+	UnityEngine.PlayerLoop.FixedUpdate+ScriptRunDelayedFixedFrameRate
+	CustomPlayerLoopSystem.EndOfFixedUpdate
+UnityEngine.PlayerLoop.PreUpdate
+	UnityEngine.PlayerLoop.PreUpdate+PhysicsUpdate
+	UnityEngine.PlayerLoop.PreUpdate+Physics2DUpdate
+	UnityEngine.PlayerLoop.PreUpdate+CheckTexFieldInput
+	UnityEngine.PlayerLoop.PreUpdate+IMGUISendQueuedEvents
+	UnityEngine.PlayerLoop.PreUpdate+NewInputUpdate
+	UnityEngine.PlayerLoop.PreUpdate+SendMouseEvents
+	UnityEngine.PlayerLoop.PreUpdate+AIUpdate
+	UnityEngine.PlayerLoop.PreUpdate+WindUpdate
+	UnityEngine.PlayerLoop.PreUpdate+UpdateVideo
+	CustomPlayerLoopSystem.UNetUpdate
+	CustomPlayerLoopSystem.PostUNetUpdate
+	CustomPlayerLoopSystem.GlobalEventsClear
+	CustomPlayerLoopSystem.GlobalEventsApply
+UnityEngine.PlayerLoop.Update
+	CustomPlayerLoopSystem.StartOfUpdate
+	UnityEngine.PlayerLoop.Update+ScriptRunBehaviourUpdate
+	UnityEngine.PlayerLoop.Update+ScriptRunDelayedDynamicFrameRate
+	UnityEngine.PlayerLoop.Update+ScriptRunDelayedTasks
+	UnityEngine.PlayerLoop.Update+DirectorUpdate
+	CustomPlayerLoopSystem.EndOfUpdate
+UnityEngine.PlayerLoop.PreLateUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+AIUpdatePostScript
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorUpdateAnimationBegin
+	UnityEngine.PlayerLoop.PreLateUpdate+LegacyAnimationUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorUpdateAnimationEnd
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorDeferredEvaluate
+	UnityEngine.PlayerLoop.PreLateUpdate+EndGraphicsJobsAfterScriptUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+ConstraintManagerUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+ParticleSystemBeginUpdateAll
+	UnityEngine.PlayerLoop.PreLateUpdate+ScriptRunBehaviourLateUpdate
+UnityEngine.PlayerLoop.PostLateUpdate
+	CustomPlayerLoopSystem.StartOfPostLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFrameStarted
+	UnityEngine.PlayerLoop.PostLateUpdate+DirectorLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+ScriptRunDelayedDynamicFrameRate
+	UnityEngine.PlayerLoop.PostLateUpdate+PhysicsSkinnedClothBeginUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateRectTransform
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerUpdateCanvases
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAudio
+	UnityEngine.PlayerLoop.PostLateUpdate+VFXUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+ParticleSystemEndUpdateAll
+	UnityEngine.PlayerLoop.PostLateUpdate+EndGraphicsJobsAfterScriptLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateCustomRenderTextures
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAllRenderers
+	UnityEngine.PlayerLoop.PostLateUpdate+EnlightenRuntimeUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAllSkinnedMeshes
+	UnityEngine.PlayerLoop.PostLateUpdate+ProcessWebSendMessages
+	UnityEngine.PlayerLoop.PostLateUpdate+SortingGroupsUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateVideoTextures
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateVideo
+	UnityEngine.PlayerLoop.PostLateUpdate+DirectorRenderImage
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerEmitCanvasGeometry
+	UnityEngine.PlayerLoop.PostLateUpdate+PhysicsSkinnedClothFinishUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+FinishFrameRendering
+	UnityEngine.PlayerLoop.PostLateUpdate+BatchModeUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFrameComplete
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateCaptureScreenshot
+	UnityEngine.PlayerLoop.PostLateUpdate+PresentAfterDraw
+	UnityEngine.PlayerLoop.PostLateUpdate+ClearImmediateRenderers
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFramePostPresent
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateResolution
+	UnityEngine.PlayerLoop.PostLateUpdate+InputEndFrame
+	UnityEngine.PlayerLoop.PostLateUpdate+TriggerEndOfFrameCallbacks
+	UnityEngine.PlayerLoop.PostLateUpdate+GUIClearEvents
+	UnityEngine.PlayerLoop.PostLateUpdate+ShaderHandleErrors
+	UnityEngine.PlayerLoop.PostLateUpdate+ResetInputAxis
+	UnityEngine.PlayerLoop.PostLateUpdate+ThreadedLoadingDebug
+	UnityEngine.PlayerLoop.PostLateUpdate+ProfilerSynchronizeStats
+	UnityEngine.PlayerLoop.PostLateUpdate+MemoryFrameMaintenance
+	UnityEngine.PlayerLoop.PostLateUpdate+ExecuteGameCenterCallbacks
+	UnityEngine.PlayerLoop.PostLateUpdate+ProfilerEndFrame
+	CustomPlayerLoopSystem.EndOfFrame
+
+[Info   : Unity Log] No Meta XR Audio Room found, setting default room
+[Info   : Unity Log] Meta XR Audio Native Interface initialized with Unity plugin
+[Info   : Unity Log] Skipped command line argument:C:\Users\jaime\OneDrive\Desktop\Games\Tarkov\Modded\EST\EscapeFromTarkov.exe
+[Info   : Unity Log] Skipped command line argument:-force-gfx-jobs
+[Info   : Unity Log] Skipped command line argument:native
+[Info   : Unity Log] key:token value:663488b800021e3110889b80
+[Info   : Unity Log] key:config value:{"BackendUrl":"http://tarkov.jadengames.com:420","Version":"live"}
+[Debug  :ModulePatch] output Nlog: Info : Application awaken, updateQueue:'Update'
+[Debug  :ModulePatch] output Nlog: Info : Assert.raiseExceptions:'True'
+[Debug  :ModulePatch] output Nlog: Info : Application obfuscation succeed.
+[Debug  :ModulePatch] output Nlog: Info : driveType:SSD swapDriveType:SSD
+[Info   :ModulePatch] Enabled patch AmandsLocalPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsLocalPlayerPatch
+[Error  : Unity Log] InvalidOperationException: AmandsSensePrismEffectsPatch: TargetMethod is null
+Stack trace:
+Aki.Reflection.Patching.ModulePatch.Enable () (at <e407be0fc137446e85703ec0d0a4a8d4>:0)
+AmandsSense.AmandsSensePlugin.Start () (at <93d2e620c69048f3b4950b4405ea76ce>:0)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Class358:UnityEngine.ILogHandler.LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[Message:EFTVersion] GameVersion:0.14.1.29197 AkiVersion:3.8.0
+[Info   :ModulePatch] Enabled patch GamePlayerOwnerPatchs
+[Info   :ModulePatch] Enabled patch TriggerWithIdPatchs
+[Info   :ModulePatch] Enabled patch CursorLockStatePatch
+[Info   :ModulePatch] Enabled patch CursorVisiblePatch
+[Message: ModVerify] AmandsGraphics Version:1.6.0(1.6.0.0) CRC32:DBF27C55
+[Message: ModVerify] AmandsSense Version:1.1.0(1.1.0.0) CRC32:EE0D6A69
+[Message: ModVerify] ConfigurationManager Version:18.0.1(18.0.1.0) CRC32:923AEE97
+[Message: ModVerify] EFTReflection Version:1.2.0(1.2.0.0) CRC32:F7BDA975
+[Message: ModVerify] EFTApi Version:1.2.0(1.2.0.0) CRC32:B3899766
+[Message: ModVerify] EFTConfiguration Version:1.2.0(1.2.0.0) CRC32:839F6E79
+[Message: ModVerify] EFTUtils Version:1.2.0(1.2.0.0) CRC32:A71AC849
+[Message: ModVerify] GamePanelHUDCore Version:3.0.0(3.0.0.0 ) CRC32:763728E0
+[Message: ModVerify] GamePanelHUDCompass Version:3.0.0(3.0.0.0 ) CRC32:199E8DA3
+[Message: ModVerify] GamePanelHUDGrenade Version:3.0.0(3.0.0.0 ) CRC32:8FD23261
+[Message: ModVerify] GamePanelHUDHealth Version:3.0.0(3.0.0.0 ) CRC32:D494F8CE
+[Message: ModVerify] GamePanelHUDHit Version:3.0.0(3.0.0.0 ) CRC32:43501386
+[Message: ModVerify] GamePanelHUDKill Version:3.0.0(3.0.0.0 ) CRC32:CA7E7551
+[Message: ModVerify] GamePanelHUDWeapon Version:3.0.0(3.0.0.0 ) CRC32:3B38D222
+[Message: ModVerify] aki-custom Version:3.8.0(3.8.0.0) CRC32:B187BCD1
+[Message: ModVerify] aki-singleplayer Version:3.8.0(3.8.0.0) CRC32:192CCE82
+[Message: ModVerify] MPT.Core Version:1.0.0(0.9.8876.41975) CRC32:5277909A
+[Message: ModVerify] bundleloader Version:1.0.0(1.0.0.0) CRC32:6768C895
+[Message: ModVerify] SamSWAT.FireSupport.ArysReloaded Version:2.2.3(1.0.0.0) CRC32:C86E7BCF
+[Message: ModVerify] SamSWAT.FOV Version:1.0.0(1.0.0.0) CRC32:FC7BB7B5
+[Message: ModVerify] VisceralDismemberment Version:1.0.0(1.0.0.0) CRC32:5A3A5D76
+[Message: ModVerify] VolumetricBloodFX Version:1.0.0(1.0.0.0) CRC32:F9883D1A
+[Message: ModVerify] aki-core Version:3.8.0(3.8.0.0) CRC32:AE6D8D4A
+[Message: ModVerify] aki-debugging Version:3.8.0(3.8.0.0) CRC32:D9BBCA39
+[Message: ModVerify] DisableScavMode Version:1.0.0(1.7.8866.43113) CRC32:CA640EB6
+[Message: ModVerify] DrakiaXYZ-BigBrain Version:0.4.0.0(0.4.0.0) CRC32:9FD4581
+[Message: ModVerify] DrakiaXYZ-Waypoints Version:1.4.3(1.4.3.0) CRC32:91E1DD91
+[Message: ModVerify] SAIN Version:2.2.0(2.2.0) CRC32:2E573FEB
+[Message: ModVerify] RealismMod Version:1.1.1(0.14.8.0) CRC32:F6C40FEF
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/settings/version
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/release
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/enableBSGlogging
+[Info   :RequestHandler] Request was successful
+[Debug  :   BepInEx] [UnityInput] Using LegacyInputSystem
+[Info   :RequestHandler] Request GET json: 663488b800021e3110889b80:/singleplayer/settings/version
+[Info   :RequestHandler] Request was successful
+[Info   :ModulePatch] Server version: SPT-AKI 3.8.0 - 2dd4d9
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Realism Detected.]
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: 663488b800021e3110889b80:/singleplayer/log
+[Info   :RequestHandler] Request was successful
